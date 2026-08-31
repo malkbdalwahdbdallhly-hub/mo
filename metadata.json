@@ -1,0 +1,6 @@
+{
+  "name": "Makeen - MikroTik & User Manager Platform",
+  "description": "منصة مكين المتكاملة لإدارة أجهزة وسيرفرات MikroTik وUser Manager عن بعد وعبر بوت Telegram",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
