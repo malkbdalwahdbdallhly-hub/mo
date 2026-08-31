@@ -9,7 +9,7 @@ export interface User {
   twoFactorEnabled: boolean;
 }
 
-export type ConnectionType = 'AUTO' | 'ROUTEROS_V6' | 'REST_SSL' | 'REST' | 'API' | 'API_SSL';
+export type ConnectionType = 'AUTO' | 'ROUTEROS_V6' | 'REST_SSL' | 'REST' | 'API' | 'API_SSL' | 'MOCK';
 
 export type ServerStatus =
   | 'CONNECTED'
@@ -28,6 +28,7 @@ export interface Server {
   apiSslPort: number;
   sshPort: number;
   username: string;
+  password?: string;
   connectionType: ConnectionType;
   osVersion?: 'v6' | 'v7' | 'auto';
   status: ServerStatus;
